@@ -1,0 +1,44 @@
+{
+  "app": {
+    "title": {
+      "ru": "Репозитории на контроле",
+      "en": "Repositories"
+    },
+    "refresh": {
+      "ru": "Обновить",
+      "en": "Refresh"
+    },
+    "repository": {
+      "ru": "Репозиторий",
+      "en": "Repository"
+    },
+    "all": {
+      "ru": "Все",
+      "en": "All"
+    },
+    "error": {
+      "ru": "Ошибка",
+      "en": "Error"
+    },
+    "merged": {
+      "ru": "Слитые",
+      "en": "Merged"
+    },
+    "unmerged": {
+      "ru": "Неслитые",
+      "en": "Unmerged"
+    },
+    "unknown": {
+      "ru": "Неизвестно",
+      "en": "Unknown"
+    },
+    "compare": {
+      "ru": "Сравнить",
+      "en": "Compare"
+    },
+    "merge": {
+      "ru": "Слить",
+      "en": "Merge"
+    }
+  }
+}
