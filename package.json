@@ -33,17 +33,17 @@
     "vue-socket.io": "^3.0.7"
   },
   "devDependencies": {
-    "babel-eslint": "^7.1.1",
-    "backpack-core": "^0.3.0",
-    "eslint": "^3.13.1",
+    "babel-eslint": "^7.2.3",
+    "backpack-core": "^0.8.4",
+    "eslint": "^3.19.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-loader": "^1.9.0",
     "eslint-plugin-html": "^2.0.3",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-node": "^4.2.2",
-    "eslint-plugin-promise": "^3.4.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "nodemon": "^1.11.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^4.2.3",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "nodemon": "^1.19.4",
     "scmp": "^2.0.0"
   }
 }
