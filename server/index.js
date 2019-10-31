@@ -36,15 +36,11 @@ const start = async () => {
       ctx.status = 200; // koa defaults to 404 when it sees that status is unset
 
       return new Promise((resolve, reject) => {
-        ctx.res
-          .on('close', resolve)
-          .on('finish', resolve);
+        ctx.res.on('close', resolve).on('finish', resolve);
 
         nuxt.render(ctx.req, ctx.res, promise => {
           // nuxt.render passes a rejected promise into callback on error.
-          promise
-            .then(resolve)
-            .catch(reject);
+          promise.then(resolve).catch(reject);
         })
       })
     });
@@ -52,11 +48,7 @@ const start = async () => {
   io = new IO({ namespace: '/' });
   io.start(server);
 
-  server
-    .on('error', function (error) {
-      console.log(error);
-    })
-    .listen(port, host);
+  server.on('error', function (error) { console.log(error) }).listen(port, host);
 
   console.log(`Server listening on ${host}:${port}`)
 };
