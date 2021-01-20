@@ -24,7 +24,7 @@
     "opn": "^5.5.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.4.0",
     "source-map-support": "^0.5.16",
     "urlencode": "^1.1.0",
     "vue": "^2.6.10",
