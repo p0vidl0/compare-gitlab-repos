@@ -19,7 +19,7 @@
     "koa-router": "^7.4.0",
     "koa-socket.io": "^1.1.2",
     "koa2-cors": "^2.0.6",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "nuxt": "latest",
     "opn": "^5.5.0",
     "request": "^2.88.0",
